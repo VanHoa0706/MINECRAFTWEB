@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MineCraft</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header> 
+            <nav class="navbar">
+                <div class="logo"> <a href="MinecraftWeb.html"><img src="logo.png" alt="Minecraft Logo"></a></div>
+                <div class="menu">
+                    <ul>
+                        <li class="dropdown"><a href="#" class="nav-link" data-new-text="GAME ▲">GAME ▼</a></li>                    
+                        <li class="dropdown"><a href="#" class="nav-link" data-new-text="SHOP ▲">SHOP ▼</a></li>
+                        <li><a href="#" class="nav-link" data-new-text="COMMUNITY ▲">COMMUNITY ▼</a></li>
+                        <li><a href="#" class="nav-link" data-new-text="SUPPORT ▲">SUPPORT ▼</a></li>
+                    </ul>
+                </div>
+                <div class="account">
+                    <ul>
+                        <li><a href="#" class="nav-link" data-new-text="☀ ACCOUNT ▲">☀ ACCOUNT ▼</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="dropdown_menu_game">
+                <div class="submenu_button">
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="#">Minecraft</a></li>
+                        <li class="submenu-item"><a href="#">Minecraft Dungeons</a></li>
+                        <li class="submenu-item"><a href="#">Minecraft Legends</a></li>
+                        <li class="submenu-item"><a href="#">Minecraft Education</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="dropdown_menu_shop">
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Shop Item 1</a></li>
+                    <li class="submenu-item"><a href="#">Shop Item 2</a></li>
+                    <li class="submenu-item"><a href="#">Shop Item 3</a></li>
+                    <li class="submenu-item"><a href="#">Shop Item 4</a></li>
+                </ul>
+            </div>
+
+
+            <div id="video-container">
+                <!-- Video Element -->
+                <video id="video-background" autoplay muted loop>
+                    <source src="inecraft Trails & Tales Update_ Official Launch Trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Video Controls -->
+                <button id="video-controls" onmouseover="expandButton()" onmouseout="contractButton()" onclick="toggleVideo()">ll Pause</button>
+            </div>
+            
+        </header> 
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
